@@ -1,0 +1,290 @@
+# Site settings
+baseURL = "http://fsimonmagie.com/"
+languageCode = "fr-fr"
+title = "Felix Simon - Magicien"
+theme = "hugo-elate-theme"
+
+[params]
+  
+  custom_css = []
+
+  # Meta
+  author = ""
+  description = ""
+  email = ""
+
+  # Google Maps Javascript API Key (if not set will default to not passing a key)
+  googleMapsApiKey = ""
+
+  # Navigation
+  [params.navigation]
+    brand = ""
+    home = ""
+    video = "Vidéo"
+    work = "Prestations"
+    testimonials = "Témoignages"
+    services = "Services"
+    about = "About"
+    contact = "Contact"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+    
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
+  
+  # Hero section
+  [params.hero]
+    title = "Félix Simon"
+    subtitle = 'Magicien'
+    quote = """L'art du magicien, parce qu’il fait croire à ce qui n’est pas, parce qu’il prend en défaut la logique et bouscule les certitudes, est la plus merveilleuse des initiations à ce dont l’homme à le plus besoin : le rêve. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Alain Decaux)"""
+ 
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "Plan"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    url = "#"
+    button = "Get In Touch"
+    icon = "icon-bulb"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Develop"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    url = "#"
+    button = "Click Me"
+    icon = "icon-wrench"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "Launch"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    url = "#"
+    button = "Why us?"
+    icon = "icon-rocket"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = true
+    title = "Voir le teaser"
+    icon = "icon-play2"
+    url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+
+  # Work section
+  [params.work]
+    enable = true
+    title = "Prestations"
+    description = "Le Close-up signifiant “gros plan” en Anglais est une spacialité de la prestidigitation qui consiste à se produire très près des spectateurs."
+
+    [[params.work.row]]
+      img = "https://images.unsplash.com/photo-1458576627435-430ad58ead3b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8c2VtaW5hcnN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+      alt = "Séminaire"
+      title = "Séminaire"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "https://images.unsplash.com/photo-1506362802973-bd1717de901c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjF8fGNhcmRzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+      alt = "Close-up"
+      title = "Close-up"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "https://images.unsplash.com/photo-1573167507387-6b4b98cb7c13?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8Y29uZiVDMyVBOXJlbmNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+      alt = "Conférence"
+      title = "Conférence"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "https://images.unsplash.com/photo-1515169067868-5387ec356754?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fGRpbm5lcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+      alt = "Diner, gala"
+      title = "Diner, gala"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8d2VkZGluZ3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+      alt = "Anniversaire et mariage"
+      title = "Anniversaire et mariage"
+      subtitle = ""
+
+  # Testimonials section
+  [params.testimonials]
+    enable = true
+    title = "Ils lui ont fait confiance"
+    description = "Merci blah blah blah blah blah blah blah"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;CT vrèment tré tré bien.&rdquo;"
+      person = 'Jean Doe <span class="subtext">Ministre</span>'
+      img = "person1.jpg"
+      alt = "Person1"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;J'en ai encore plein les yeux.&rdquo;"
+      person = 'John Doe <span class="subtext">Retraitée</span>'
+      img = "person2.jpg"
+      alt = "Person2"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Trop cool. &rdquo;"
+      person = 'Chris Nash <span class="subtext">Chef des avions</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+    
+
+
+
+  # Services section
+  [params.services]
+    enable = false
+    title = "Services"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.services.item]]
+      title = "Brand &amp; Strategy"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-anchor"
+
+    [[params.services.item]]
+      title = "Web &amp; Interface"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-layers2"
+    [[params.services.item]]
+      title = "Photo &amp; Video"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-video2"
+
+      [[params.services.item]]
+      title = "CMS &amp; eCommerce"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+      icon = "icon-monitor"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "Les marques qui m'ont fait confiance"
+    description = ""
+
+    [[params.about.item]]
+      name = "Groupama"
+      position = ""
+      description = ""
+      img = "https://www.jdadijon.com/wp-content/uploads/2016/09/groupama-logo.jpg"
+      alt = ""
+
+    [[params.about.item]]
+      name = "Marie's Corner"
+      position = ""
+      description = ""
+      img = "https://www.mariescorner.com/wp-content/uploads/2019/02/logoMC_420px.png"
+      alt = ""
+
+    [[params.about.item]]
+      name = "Louis Vuitton"
+      position = ""
+      description = ""
+      img = "https://www.luxe-infinity.com/wp-content/uploads/2020/04/louis-vuitton-logo.jpg"
+      alt = ""
+
+    [[params.about.item]]
+      name = "BMW"
+      position = ""
+      description = ""
+      img = "https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg"
+      alt = ""
+
+    [[params.about.item]]
+      name = "Galeries Lafayette"
+      position = ""
+      description = ""
+      img = "https://static.latribune.fr/article_body/505822/logo-galeries.jpg"
+      alt = ""
+
+    [[params.about.item]]
+      name = "Belfius"
+      position = ""
+      description = ""
+      img = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7_KbhWgNRAE-cJynO9E6xPAyDM0Q09msxYQ&usqp=CAU"
+      alt = ""
+
+  # Counters section
+  [params.counters]
+    enable = false
+    title = "Stats"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Finished projects"
+      icon = "icon-briefcase"
+      from = 0
+      to = 89
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Lines of code"
+      icon = "icon-code"
+      from = 0
+      to = 2343409
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Cups of coffee"
+      icon = "icon-cup"
+      from = 0
+      to = 1302
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Happy clients"
+      icon = "icon-people"
+      from = 0
+      to = 52
+      interval = 50
+      speed = 5000
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = false
+    form = true
+    title = "Une question ? Écrivez-moi"
+    description = ""
+    
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "Félix Simon"],
+        ["icon-phone", "0033 682 87 11 45"],
+        ["icon-envelope", "fsimon.magie@gmail.com"],
+      ]
+    
+    name = "Votre nom"
+    email = "Email"
+    phone = "Téléphone"
+    message = "Message"
+    button = "Envoyer"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '&copy; Félix Simon<br>design de <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a> et <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    links = [
+        ["icon-facebook", "#facebook"],
+        ["icon-instagram", "#instagram"],
+      ]
