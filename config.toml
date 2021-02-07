@@ -45,7 +45,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Félix Simon"
-    subtitle = 'Magicien'
+    subtitle = 'Magicien & Mentaliste'
     quote = "‟L'art du magicien, parce qu’il fait croire à ce qui n’est pas, parce qu’il prend en défaut la logique et bouscule les certitudes, est la plus merveilleuse des initiations à ce dont l’homme à le plus besoin : le rêve.”" 
     author = "— Alain Decaux"
  
