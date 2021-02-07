@@ -7,7 +7,10 @@
 						<div class="col-md-8 col-md-offset-2">
 							<h1 class="to-animate" style="font-size:60px">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</h1>
 							<h2 class="to-animate">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</h2>
-							<div class="to-animate" style="margin-top:20px;font-style:italic;font-size: 86%">{{ with .Site.Params.hero.quote }}{{ . | markdownify }}{{ end }}</div>
+							<div class="to-animate" style="margin-top:20px;font-style:italic;font-size: 86%">
+								{{ with .Site.Params.hero.quote }}{{ . | markdownify }}{{ end }}
+								<div style="text-align:right;font-style:italic">{{ with .Site.Params.hero.author }}{{ . | markdownify }}{{ end }}</div>
+							</div>
 						</div>
 					</div>
 				</div>
