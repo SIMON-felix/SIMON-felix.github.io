@@ -46,7 +46,7 @@ theme = "hugo-elate-theme"
   [params.hero]
     title = "Félix Simon"
     subtitle = 'Magicien'
-    quote = "L'art du magicien, parce qu’il fait croire à ce qui n’est pas, parce qu’il prend en défaut la logique et bouscule les certitudes, est la plus merveilleuse des initiations à ce dont l’homme à le plus besoin : le rêve." 
+    quote = "‟L'art du magicien, parce qu’il fait croire à ce qui n’est pas, parce qu’il prend en défaut la logique et bouscule les certitudes, est la plus merveilleuse des initiations à ce dont l’homme à le plus besoin : le rêve.”" 
     author = "— Alain Decaux"
  
   # Intro section
@@ -81,7 +81,7 @@ theme = "hugo-elate-theme"
     enable = true
     title = "Voir le teaser"
     icon = "icon-play2"
-    url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    url = "//www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 
   # Work section
@@ -91,31 +91,31 @@ theme = "hugo-elate-theme"
     description = "Le Close-up signifiant “gros plan” en Anglais est une spacialité de la prestidigitation qui consiste à se produire très près des spectateurs."
 
     [[params.work.row]]
-      img = "https://images.unsplash.com/photo-1458576627435-430ad58ead3b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8c2VtaW5hcnN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+      img = "/photo-1458576627435-430ad58ead3b.jpeg"
       alt = "Séminaire"
       title = "Séminaire"
       subtitle = ""
 
     [[params.work.row]]
-      img = "https://images.unsplash.com/photo-1506362802973-bd1717de901c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjF8fGNhcmRzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+      img = "/photo-1506362802973-bd1717de901c.jpeg"
       alt = "Close-up"
       title = "Close-up"
       subtitle = ""
 
     [[params.work.row]]
-      img = "https://images.unsplash.com/photo-1573167507387-6b4b98cb7c13?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8Y29uZiVDMyVBOXJlbmNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+      img = "/photo-1573167507387-6b4b98cb7c13.jpeg"
       alt = "Conférence"
       title = "Conférence"
       subtitle = ""
 
     [[params.work.row]]
-      img = "https://images.unsplash.com/photo-1515169067868-5387ec356754?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fGRpbm5lcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+      img = "/photo-1515169067868-5387ec356754.jpeg"
       alt = "Diner, gala"
       title = "Diner, gala"
       subtitle = ""
 
     [[params.work.row]]
-      img = "https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8d2VkZGluZ3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+      img = "/photo-1519225421980-715cb0215aed.jpeg"
       alt = "Anniversaire et mariage"
       title = "Anniversaire et mariage"
       subtitle = ""
@@ -143,34 +143,34 @@ theme = "hugo-elate-theme"
       person = 'Chris Nash <span class="subtext">Chef des avions</span>'
       img = "person3.jpg"
       alt = "Person3"
-    
-
 
 
   # Services section
   [params.services]
-    enable = false
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    enable = true
+    title = "Photos"
+    description = "Le Close-up signifiant “gros plan” en Anglais est une spacialité de la prestidigitation qui consiste à se produire très près des spectateurs."
 
-    [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
+  [[params.services.item]]
+    img = "/photo-1458576627435-430ad58ead3b.jpeg"
+    alt = "Séminaire"
 
-    [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+  [[params.services.item]]
+    img = "/photo-1506362802973-bd1717de901c.jpeg"
+    alt = "Close-up"
 
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
+  [[params.services.item]]
+    img = "/photo-1573167507387-6b4b98cb7c13.jpeg"
+    alt = "Conférence"
+
+  [[params.services.item]]
+    img = "/photo-1515169067868-5387ec356754.jpeg"
+    alt = "Diner, gala"
+
+  [[params.services.item]]
+    img = "/photo-1519225421980-715cb0215aed.jpeg"
+    alt = "Anniversaire et mariage"
+
 
   # About section
   [params.about]
@@ -179,45 +179,45 @@ theme = "hugo-elate-theme"
     description = ""
 
     [[params.about.item]]
-      name = "Groupama"
+      name = ""
       position = ""
       description = ""
-      img = "https://www.jdadijon.com/wp-content/uploads/2016/09/groupama-logo.jpg"
+      img = "//www.jdadijon.com/wp-content/uploads/2016/09/groupama-logo.jpg"
       alt = ""
 
     [[params.about.item]]
-      name = "Marie's Corner"
+      name = ""
       position = ""
       description = ""
-      img = "https://www.mariescorner.com/wp-content/uploads/2019/02/logoMC_420px.png"
+      img = "//www.mariescorner.com/wp-content/uploads/2019/02/logoMC_420px.png"
       alt = ""
 
     [[params.about.item]]
-      name = "Louis Vuitton"
+      name = ""
       position = ""
       description = ""
-      img = "https://www.luxe-infinity.com/wp-content/uploads/2020/04/louis-vuitton-logo.jpg"
+      img = "//www.luxe-infinity.com/wp-content/uploads/2020/04/louis-vuitton-logo.jpg"
       alt = ""
 
     [[params.about.item]]
-      name = "BMW"
+      name = ""
       position = ""
       description = ""
-      img = "https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg"
+      img = "//upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg"
       alt = ""
 
     [[params.about.item]]
-      name = "Galeries Lafayette"
+      name = ""
       position = ""
       description = ""
-      img = "https://static.latribune.fr/article_body/505822/logo-galeries.jpg"
+      img = "//static.latribune.fr/article_body/505822/logo-galeries.jpg"
       alt = ""
 
     [[params.about.item]]
-      name = "Belfius"
+      name = ""
       position = ""
       description = ""
-      img = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7_KbhWgNRAE-cJynO9E6xPAyDM0Q09msxYQ&usqp=CAU"
+      img = "//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7_KbhWgNRAE-cJynO9E6xPAyDM0Q09msxYQ&usqp=CAU"
       alt = ""
 
   # Counters section
@@ -269,7 +269,7 @@ theme = "hugo-elate-theme"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "Félix Simon"],
-        ["icon-phone", "0033 682 87 11 45"],
+        ["icon-phone", "0033 6 82 87 11 45"],
         ["icon-envelope", "fsimon.magie@gmail.com"],
       ]
     
@@ -282,8 +282,8 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Félix Simon<br>design de <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a> et <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    copyright = '&copy; Félix Simon<br>design de <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a> et <a href="//github.com/saey55" target="_blank">saey55</a>'
     links = [
-        ["icon-facebook", "https://www.facebook.com/felix.le.magicien/"],
-        ["icon-instagram", "https://www.instagram.com/felix_magie/"],
+        ["icon-facebook", "//www.facebook.com/felix.le.magicien/"],
+        ["icon-instagram", "//www.instagram.com/felix_magie/"],
       ]
