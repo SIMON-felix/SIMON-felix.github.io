@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "http://fsimonmagie.com/"
 languageCode = "fr-fr"
-title = " Super Felix Simon - Magicien"
+title = "Felix Simon - Magicien"
 theme = "hugo-elate-theme"
 
 [params]
