@@ -284,6 +284,6 @@ theme = "hugo-elate-theme"
     enable = true
     copyright = '&copy; Félix Simon<br>design de <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a> et <a href="https://github.com/saey55" target="_blank">saey55</a>'
     links = [
-        ["icon-facebook", "#facebook"],
-        ["icon-instagram", "#instagram"],
+        ["icon-facebook", "https://www.facebook.com/felix.le.magicien/"],
+        ["icon-instagram", "https://www.instagram.com/felix_magie/"],
       ]
