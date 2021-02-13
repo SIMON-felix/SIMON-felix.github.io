@@ -10,7 +10,7 @@ theme = "hugo-elate-theme"
 
   # Meta
   author = "Félix Simon"
-  description = "Magicien"
+  description = "Magicien & Mentaliste"
   email = "fsimon.magie@gmail.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
@@ -45,37 +45,30 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Félix Simon"
-    subtitle = 'Magicien'
+    subtitle = 'Magicien & Mentaliste'
     quote = "‟L'art du magicien, parce qu’il fait croire à ce qui n’est pas, parce qu’il prend en défaut la logique et bouscule les certitudes, est la plus merveilleuse des initiations à ce dont l’homme à le plus besoin : le rêve.”" 
     author = "— Alain Decaux"
  
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
+      img = "profile_bg.jpg"
+      description = [
+        """
+        Félix Simon est un magicien né entre les vignes de Bourgogne. Il découvre, très jeune la magie, qui deviendra quelques années plus tard sa passion.
+        C’est à l'âge de 20 ans que Félix arrive à Bruxelles avec sa mallette de magicien. 
+        """,
+        """
+        Petit à petit, il exprime son talent jusqu'à se faire une réputation de qualité comme magicien et mentaliste. 
+        En effet, c'est au contact de son public, lors d'événements que Félix aime éblouir les invités avec ses tours de cartes et de mentalisme. 
+        Par ses effets et ses manipulations, il confronte les spectateurs à la surprise, leur permettant le temps d'une soirée d'être ébloui et de retrouver leur âme d'enfant.
+        """,
+        """
+        C’est dans le close up que Félix séduit son public, le captivant par son talent, son humour, sa sympathie et sa bienveillance.
+        Il saura sans aucun doute vous surprendre, vous faire croire que tout est possible et que sa magie est bien réelle. 
+        """
+      ]
 
-  [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
-    img = "img_7.jpg"
-
-  [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
-    img = "img_8.jpg"
-
-  [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
 
   [params.intro.video]
     enable = true
@@ -87,43 +80,43 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "Prestations"
+    title = "Prestations de close-up & Mentalisme"
     description = "Le Close-up signifiant “gros plan” en Anglais est une spacialité de la prestidigitation qui consiste à se produire très près des spectateurs."
 
     [[params.work.row]]
-      img = "/photo-1458576627435-430ad58ead3b.jpeg"
-      alt = "Séminaire"
-      title = "Séminaire"
-      subtitle = ""
-
-    [[params.work.row]]
-      img = "/photo-1506362802973-bd1717de901c.jpeg"
-      alt = "Close-up"
-      title = "Close-up"
-      subtitle = ""
-
-    [[params.work.row]]
-      img = "/photo-1573167507387-6b4b98cb7c13.jpeg"
-      alt = "Conférence"
-      title = "Conférence"
-      subtitle = ""
-
-    [[params.work.row]]
       img = "/photo-1515169067868-5387ec356754.jpeg"
-      alt = "Diner, gala"
-      title = "Diner, gala"
+      alt = "Ice-breaker"
+      title = "Ice-breaker"
       subtitle = ""
 
     [[params.work.row]]
       img = "/photo-1519225421980-715cb0215aed.jpeg"
-      alt = "Anniversaire et mariage"
-      title = "Anniversaire et mariage"
+      alt = "Mariages, Anniversaires"
+      title = "Mariages, Anniversaires"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "/photo-1506362802973-bd1717de901c.jpeg"
+      alt = "Spectacle sur scène"
+      title = "Spectacle sur scène"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "/photo-1458576627435-430ad58ead3b.jpeg"
+      alt = "Corporate"
+      title = "Au sein de votre entreprise"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "/photo-1573167507387-6b4b98cb7c13.jpeg"
+      alt = "Communication non-verbale"
+      title = "Communication non-verbale"
       subtitle = ""
 
   # Testimonials section
   [params.testimonials]
     enable = true
-    title = "Ils lui ont fait confiance"
+    title = "Ils m'ont fait confiance"
     description = "Merci blah blah blah blah blah blah blah"
 
     [[params.testimonials.item]]
@@ -176,49 +169,34 @@ theme = "hugo-elate-theme"
   [params.about]
     enable = true
     title = "Les marques qui m'ont fait confiance"
-    description = ""
 
     [[params.about.item]]
-      name = ""
-      position = ""
-      description = ""
-      img = "//www.jdadijon.com/wp-content/uploads/2016/09/groupama-logo.jpg"
-      alt = ""
+      img = "/brands/spirito.jpg"
 
     [[params.about.item]]
-      name = ""
-      position = ""
-      description = ""
-      img = "//www.mariescorner.com/wp-content/uploads/2019/02/logoMC_420px.png"
-      alt = ""
-
-    [[params.about.item]]
-      name = ""
-      position = ""
-      description = ""
-      img = "//www.luxe-infinity.com/wp-content/uploads/2020/04/louis-vuitton-logo.jpg"
-      alt = ""
-
-    [[params.about.item]]
-      name = ""
-      position = ""
-      description = ""
       img = "//upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg"
-      alt = ""
 
     [[params.about.item]]
-      name = ""
-      position = ""
-      description = ""
+      img = "//www.mariescorner.com/wp-content/uploads/2019/02/logoMC_420px.png"
+
+    [[params.about.item]]
       img = "//static.latribune.fr/article_body/505822/logo-galeries.jpg"
-      alt = ""
 
     [[params.about.item]]
-      name = ""
-      position = ""
-      description = ""
-      img = "//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7_KbhWgNRAE-cJynO9E6xPAyDM0Q09msxYQ&usqp=CAU"
-      alt = ""
+      img = "//www.luxe-infinity.com/wp-content/uploads/2020/04/louis-vuitton-logo.jpg"
+
+    [[params.about.item]]
+      img = "/brands/montaigne.png"
+
+    [[params.about.item]]
+      img = "//www.jdadijon.com/wp-content/uploads/2016/09/groupama-logo.jpg"
+
+    [[params.about.item]]
+      img = "/brands/dbb.png"
+
+    [[params.about.item]]
+      img = "/brands/imperial.png"
+
 
   # Counters section
   [params.counters]
@@ -269,7 +247,7 @@ theme = "hugo-elate-theme"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "Félix Simon"],
-        ["icon-phone", "0033 6 82 87 11 45"],
+        ["icon-phone", "0033/6 82 87 11 45"],
         ["icon-envelope", "fsimon.magie@gmail.com"],
       ]
     
@@ -282,8 +260,8 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Félix Simon<br>design de <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a> et <a href="//github.com/saey55" target="_blank">saey55</a>'
+    copyright = '&copy; Félix Simon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; design de <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a> et <a href="//github.com/saey55" target="_blank">saey55</a>'
     links = [
-        ["icon-facebook", "//www.facebook.com/felix.le.magicien/"],
-        ["icon-instagram", "//www.instagram.com/felix_magie/"],
+        ["/social/facebook.png", "//www.facebook.com/felix.le.magicien/"],
+        ["/social/instagram.png", "//www.instagram.com/felix_magie/"],
       ]

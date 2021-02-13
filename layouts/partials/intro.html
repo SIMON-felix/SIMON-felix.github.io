@@ -1,28 +1,24 @@
-	<section id="fh5co-intro">
+	<section id="fh5co-intro" style="padding-bottom:1em">
 		<div class="container">
-			<div class="row row-bottom-padded-lg">
-				{{ range .Site.Params.intro.item }}
-				<div class="fh5co-block to-animate" style="background-image: url(images/{{ .img }});">
-					<div class="overlay-darker"></div>
-					<div class="overlay"></div>
-					<div class="fh5co-text">
-						<i class="fh5co-intro-icon {{ .icon }}"></i>
-						<h2>{{ .title }}</h2>
-						<p>{{ .description }}</p>
-						{{ if .button}}
-						<p><a href="{{ .url }}" class="btn btn-primary">{{ .button}}</a></p>
-						{{ end }}
-					</div>
+			<div class="row row-bottom-padded-lg" style="align-items:stretch!important;display:flex">
+				<div class="hidden-xs hidden-sm hidden-md fh5co-block to-animate" style="background-image: url({{ .Site.Params.intro.img }})">
 				</div>
-				{{ end }}
+				<div class="fh5co-block to-animate" style="width: 66%;">
+					{{ range .Site.Params.intro.description }}
+					<p>{{ . }}</p>
+					{{ end }}
+				</div>
 			</div>
 			{{ if .Site.Params.intro.video.enable }}
-			<div class="row watch-video text-center to-animate" data-section="video">
+			<div class="row watch-video text-center to-animate" data-section="video" style="margin: 0 auto">
 				<!-- <span>{{ with .Site.Params.intro.video }}{{ . }}{{ end }}</span> -->
 				<span>{{.Site.Params.intro.video.title | markdownify }}</span>
 
 				<a href="{{ .Site.Params.intro.video.url }}" class="popup-vimeo btn-video"><i class="{{ .Site.Params.intro.video.icon | markdownify }}"></i></a>
 			</div>
 			{{ end }}
+			<div class="fh5co-block to-animate" style="box-shadow: none;min-height: 1em;">
+				<p>Que vous soyez particulier ou professionnel, la magie rendra votre évènement exceptionnel.</p>
+			</div>
 		</div>
 	</section>
