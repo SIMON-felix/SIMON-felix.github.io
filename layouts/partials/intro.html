@@ -1,9 +1,9 @@
 	<section id="fh5co-intro" style="padding-bottom:1em">
 		<div class="container">
 			<div class="row row-bottom-padded-lg" style="align-items:stretch!important;display:flex">
-				<div class="hidden-xs hidden-sm hidden-md fh5co-block to-animate" style="background-image: url({{ .Site.Params.intro.img }})">
+				<div class="hidden-xs hidden-sm hidden-md fh5co-block to-animate intro-image" style="background-image: url({{ .Site.Params.intro.img }})">
 				</div>
-				<div class="fh5co-block to-animate" style="width: 66%;">
+				<div class="fh5co-block to-animate intro-text" style="width: 66%;">
 					{{ range .Site.Params.intro.description }}
 					<p>{{ . }}</p>
 					{{ end }}

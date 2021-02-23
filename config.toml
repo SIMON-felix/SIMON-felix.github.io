@@ -81,36 +81,35 @@ theme = "hugo-elate-theme"
   [params.work]
     enable = true
     title = "Prestations de close-up & Mentalisme"
-    description = "Le Close-up signifiant “gros plan” en Anglais est une spacialité de la prestidigitation qui consiste à se produire très près des spectateurs."
+    # description = "Le Close-up signifiant “gros plan” en Anglais est une spacialité de la prestidigitation qui consiste à se produire très près des spectateurs."
 
     [[params.work.row]]
-      img = "/photo-1515169067868-5387ec356754.jpeg"
-      alt = "Ice-breaker"
-      title = "Ice-breaker"
+      img = "/img/conf_thumb.png"
+      title = "Repas d’entreprises / Gala / Cocktail"
       subtitle = ""
 
     [[params.work.row]]
-      img = "/photo-1519225421980-715cb0215aed.jpeg"
-      alt = "Mariages, Anniversaires"
+      img = "/img/gala.jpg"
+      alt = "Réceptions / Soirées privées"
       title = "Mariages, Anniversaires"
       subtitle = ""
 
     [[params.work.row]]
-      img = "/photo-1506362802973-bd1717de901c.jpeg"
+      img = "/img/spec.jpg"
       alt = "Spectacle sur scène"
       title = "Spectacle sur scène"
       subtitle = ""
 
     [[params.work.row]]
-      img = "/photo-1458576627435-430ad58ead3b.jpeg"
+      img = "/img/corpo.png"
       alt = "Corporate"
-      title = "Au sein de votre entreprise"
+      title = "Corporate"
       subtitle = ""
 
     [[params.work.row]]
-      img = "/photo-1573167507387-6b4b98cb7c13.jpeg"
-      alt = "Communication non-verbale"
-      title = "Communication non-verbale"
+      img = "/img/recept.png"
+      alt = "Conférence"
+      title = "Conférence"
       subtitle = ""
 
   # Testimonials section
@@ -120,19 +119,37 @@ theme = "hugo-elate-theme"
     description = "Merci blah blah blah blah blah blah blah"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;CT vrèment tré tré bien.&rdquo;"
+      quote = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       person = 'Jean Doe <span class="subtext">Ministre</span>'
       img = "person1.jpg"
       alt = "Person1"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;J'en ai encore plein les yeux.&rdquo;"
+      quote = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       person = 'John Doe <span class="subtext">Retraitée</span>'
       img = "person2.jpg"
       alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Trop cool. &rdquo;"
+      quote = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      person = 'Chris Nash <span class="subtext">Chef des avions</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+
+    [[params.testimonials.item]]
+      quote = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      person = 'Jean Doe <span class="subtext">Ministre</span>'
+      img = "person1.jpg"
+      alt = "Person1"
+
+    [[params.testimonials.item]]
+      quote = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      person = 'John Doe <span class="subtext">Retraitée</span>'
+      img = "person2.jpg"
+      alt = "Person2"
+
+    [[params.testimonials.item]]
+      quote = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       person = 'Chris Nash <span class="subtext">Chef des avions</span>'
       img = "person3.jpg"
       alt = "Person3"
@@ -142,27 +159,64 @@ theme = "hugo-elate-theme"
   [params.services]
     enable = true
     title = "Photos"
-    description = "Le Close-up signifiant “gros plan” en Anglais est une spacialité de la prestidigitation qui consiste à se produire très près des spectateurs."
+    # description = "Le Close-up signifiant “gros plan” en Anglais est une spécialité de la prestidigitation qui consiste à se produire très près des spectateurs."
 
   [[params.services.item]]
-    img = "/photo-1458576627435-430ad58ead3b.jpeg"
-    alt = "Séminaire"
-
+    img ="/img/IMG_4751.JPG"
+    thumb ="/img/IMG_4751_thumb.png"
   [[params.services.item]]
-    img = "/photo-1506362802973-bd1717de901c.jpeg"
-    alt = "Close-up"
-
+    img ="/img/IMG_4779.JPG"
+    thumb ="/img/IMG_4779_thumb.png"
   [[params.services.item]]
-    img = "/photo-1573167507387-6b4b98cb7c13.jpeg"
-    alt = "Conférence"
-
+    img ="/img/IMG_5112.jpg"
+    thumb ="/img/IMG_5112_thumb.png"
   [[params.services.item]]
-    img = "/photo-1515169067868-5387ec356754.jpeg"
-    alt = "Diner, gala"
-
+    img ="/img/IMG_4766.JPG"
+    thumb ="/img/IMG_4766_thumb.png"
   [[params.services.item]]
-    img = "/photo-1519225421980-715cb0215aed.jpeg"
-    alt = "Anniversaire et mariage"
+    img ="/img/IMG_4757.JPG"
+    thumb ="/img/IMG_4757_thumb.png"
+  [[params.services.item]]
+    img ="/img/IMG_4742.JPG"
+    thumb ="/img/IMG_4742_thumb.png"
+  [[params.services.item]]
+    img ="/img/IMG_4611.JPG"
+  [[params.services.item]]
+    img ="/img/IMG_2627.JPG"
+    thumb ="/img/IMG_2627_thumb.png"
+  [[params.services.item]]
+    img ="/img/IMG_4485.JPG"
+    thumb ="/img/IMG_4485_thumb.png"
+  [[params.services.item]]
+    img ="/img/IMG_4483.JPG"
+    thumb ="/img/IMG_4483_thumb.png"
+  [[params.services.item]]
+    img ="/img/DSC00268.jpg"
+    thumb ="/img/DSC00268_thumb.png"
+  [[params.services.item]]
+    img ="/img/DSC00267.jpg"
+    thumb ="/img/DSC00267_thumb.png"
+  [[params.services.item]]
+    img ="/img/DSC00233-2.jpg"
+    thumb ="/img/DSC00233-2_thumb.png"
+  [[params.services.item]]
+    img ="/img/DSC00219.jpg"
+    thumb ="/img/DSC00219_thumb.png"
+  [[params.services.item]]
+    img ="/img/DSC00111.jpg"
+    thumb ="/img/DSC00111_thumb.png"
+  [[params.services.item]]
+    img ="/img/DSC00105.jpg"
+    thumb ="/img/DSC00105_thumb.png"
+  [[params.services.item]]
+    img ="/img/DSC00045.jpg"
+    thumb ="/img/DSC00045_thumb.png"
+  [[params.services.item]]
+    img ="/img/DSC00053.jpg"
+    thumb ="/img/DSC00053_thumb.png"
+  # [[params.services.item]]
+  #   img ="/img/DSC00040.jpg"
+  #   thumb ="/img/DSC00040_thumb.png"
 
 
   # About section
@@ -171,7 +225,7 @@ theme = "hugo-elate-theme"
     title = "Les marques qui m'ont fait confiance"
 
     [[params.about.item]]
-      img = "/brands/spirito.jpg"
+      img = "/img/spirito.jpg"
 
     [[params.about.item]]
       img = "//upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg"
@@ -186,16 +240,19 @@ theme = "hugo-elate-theme"
       img = "//www.luxe-infinity.com/wp-content/uploads/2020/04/louis-vuitton-logo.jpg"
 
     [[params.about.item]]
-      img = "/brands/montaigne.png"
+      img = "/img/montaigne.png"
 
     [[params.about.item]]
       img = "//www.jdadijon.com/wp-content/uploads/2016/09/groupama-logo.jpg"
 
     [[params.about.item]]
-      img = "/brands/dbb.png"
+      img = "/img/dbb.png"
 
     [[params.about.item]]
-      img = "/brands/imperial.png"
+      img = "/img/imperial.png"
+
+    [[params.about.item]]
+      img = "/img/belfius.png"
 
 
   # Counters section

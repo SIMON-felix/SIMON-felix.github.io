@@ -11,13 +11,12 @@
 				</div>
 			</div>
 			<div class="row row-bottom-padded-sm">
-			{{ range .Site.Params.services.item }}
-				<div class="col-md-4 col-sm-6 col-xxs-12" style="margin-bottom:10px">
-					<a href="{{ .img }}" class="fh5co-project-item image-popup to-animate">
-						<img src="{{ .img }}" alt="{{ .alt }}" class="img-responsive" style="height:240px;width:100%;">
+			{{ range $index, $item := .Site.Params.services.item }}
+				<div class="col-md-4 col-sm-6 col-xxs-12 image-grid" style="margin-bottom:10px;{{if lt 1000 $index }}display:none{{end}}">
+					<a href="{{ $item.img }}" class="fh5co-project-item image-popup to-animate image-grid-item">
+						<img src="{{ with $item.thumb }}{{.}}{{else}}{{ $item.img }}{{end}}" alt="{{ .alt }}" class="img-responsive">
 					</a>
-				</div>				
-
+				</div>
 				<div class="clearfix visible-sm-block"></div>
 			{{ end }}
 			</div>
