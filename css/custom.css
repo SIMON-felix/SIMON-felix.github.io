@@ -1,0 +1,19 @@
+#fh5co-intro .fh5co-block.intro-image {
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+#fh5co-intro .fh5co-block.intro-text {
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+
+#fh5co-services .image-grid a {
+    display: block;
+    max-height: 239px;
+    overflow: hidden;
+}
+
+.testimonials2 {
+    display: none;
+}
