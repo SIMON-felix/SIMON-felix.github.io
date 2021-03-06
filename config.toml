@@ -9,7 +9,7 @@ theme = "hugo-elate-theme"
   custom_css = []
 
   # Meta
-  author = "Félix Simon"
+  author = "Félix SIMON"
   description = "Magicien & Mentaliste"
   email = "fsimon.magie@gmail.com"
 
@@ -23,7 +23,7 @@ theme = "hugo-elate-theme"
     video = "Vidéo"
     work = "Prestations"
     testimonials = "Témoignages"
-    services = "Services"
+    services = "Photos"
     about = "Marques"
     contact = "Contact"
 
@@ -44,7 +44,7 @@ theme = "hugo-elate-theme"
   
   # Hero section
   [params.hero]
-    title = "Félix Simon"
+    title = "Félix SIMON"
     subtitle = 'Magicien & Mentaliste'
     quote = "‟L'art du magicien, parce qu’il fait croire à ce qui n’est pas, parce qu’il prend en défaut la logique et bouscule les certitudes, est la plus merveilleuse des initiations à ce dont l’homme à le plus besoin : le rêve.”" 
     author = "— Alain Decaux"
@@ -52,7 +52,7 @@ theme = "hugo-elate-theme"
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
-      img = "profile_bg.jpg"
+      img = "profile_bg_thumb.jpeg"
       description = [
         """
         Félix Simon est un magicien né entre les vignes de Bourgogne. Il découvre, très jeune la magie, qui deviendra quelques années plus tard sa passion.
@@ -64,7 +64,7 @@ theme = "hugo-elate-theme"
         Par ses effets et ses manipulations, il confronte les spectateurs à la surprise, leur permettant le temps d'une soirée d'être ébloui et de retrouver leur âme d'enfant.
         """,
         """
-        C’est dans le close up que Félix séduit son public, le captivant par son talent, son humour, sa sympathie et sa bienveillance.
+        C’est dans le close up que Félix séduit particulèrement son public, le captivant par son talent, son humour, sa sympathie et sa bienveillance.
         Il saura sans aucun doute vous surprendre, vous faire croire que tout est possible et que sa magie est bien réelle. 
         """
       ]
@@ -81,17 +81,17 @@ theme = "hugo-elate-theme"
   [params.work]
     enable = true
     title = "Prestations de close-up & Mentalisme"
-    # description = "Le Close-up signifiant “gros plan” en Anglais est une spacialité de la prestidigitation qui consiste à se produire très près des spectateurs."
+    description = "Le Close-up signifiant “gros plan” en Anglais est une spécialité de la prestidigitation qui consiste à se produire très près des spectateurs."
 
     [[params.work.row]]
-      img = "/img/conf_thumb.png"
-      title = "Repas d’entreprises / Gala / Cocktail"
+      img = "/img/IMG_5112_thumb.png"
+      title = "Gala / Cocktail"
       subtitle = ""
 
     [[params.work.row]]
-      img = "/img/gala.jpg"
+      img = "/img/recept.png"
       alt = "Réceptions / Soirées privées"
-      title = "Mariages, Anniversaires"
+      title = "Soirée privée: Mariage, Anniversaire"
       subtitle = ""
 
     [[params.work.row]]
@@ -101,13 +101,18 @@ theme = "hugo-elate-theme"
       subtitle = ""
 
     [[params.work.row]]
+      img = "/img/gala.jpg"
+      title = "Repas d’entreprises"
+      subtitle = ""
+
+    [[params.work.row]]
       img = "/img/corpo.png"
       alt = "Corporate"
       title = "Corporate"
       subtitle = ""
 
     [[params.work.row]]
-      img = "/img/recept.png"
+      img = "/img/conf_thumb.png"
       alt = "Conférence"
       title = "Conférence"
       subtitle = ""
@@ -119,38 +124,122 @@ theme = "hugo-elate-theme"
     description = "Merci blah blah blah blah blah blah blah"
 
     [[params.testimonials.item]]
-      quote = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-      person = 'Jean Doe <span class="subtext">Ministre</span>'
+      quote = """
+Depuis l’enfance, les magiciens me font rêver. Je me laisse entraîner et ne cherche
+même pas à deviner le truc. Peut-être est-ce mon âme d’enfant qui me fait croire,
+voire espérer, qu’en fait non il n’y a pas de truc. Et que oui je suis en face d’un vrai
+magicien. C’est cela la magie du magicien… 
+
+Mais je ne suis plus enfant, loin de là. Et
+depuis des années et des années, j’organise des formations et anime des grandes
+réunions. Souvent, comme cerise sur le gâteau, j’amène un magicien, dont je suis le
+premier spectateur. Ça marche toujours. Toutes les âmes d’enfant remontent alors à
+la surface. Avec Félix, ça a marché du tonnerre. Il est passé de table en table, et de
+table en table se sont répandus des sourires, des ébahissements, des exclamations,
+des applaudissements, des remerciements. Chapeau, l’artiste !
+"""
+      person = 'Pierre Guilbert <span class="subtext">Toubib d’Entreprise</span>'
       img = "person1.jpg"
       alt = "Person1"
 
     [[params.testimonials.item]]
-      quote = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-      person = 'John Doe <span class="subtext">Retraitée</span>'
+      quote = """Felix plus qu’un magicien un metteur en jeu, attentif à ce que tout le monde participe et
+soit émerveillé. Des plus jeunes ou des plus âges personne n’est mis de côté et tout le
+monde est impressionné .... voire même énervé mais c’est cela qu’on aime.
+"""
+      person = 'Raphaël SZ <span class="subtext">CoDirecteur de Room 260</span>'
       img = "person2.jpg"
       alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-      person = 'Chris Nash <span class="subtext">Chef des avions</span>'
+      quote = """A l’occasion d’une émission de télévision consacrée aux plus âgés confinés et isolés en
+période de pandémie, j’ai appris à connaître et apprécier Félix. Pour ses grands talents de
+magicien tout d’abord, fascinant le public de la maison de repos schaerbeekoise où nous
+enregistrions l’émission, mais aussi pour sa bienveillance vis à vis de ce 4 ème âge souvent
+désespéré, leur apportant un peu de joie en un moment aussi sombre.
+"""
+      person = 'Jean-Jacques Deleeuw <span class="subtext">Directeur de l’information &amp; Rédacteur en chef BX1</span>'
       img = "person3.jpg"
       alt = "Person3"
 
     [[params.testimonials.item]]
-      quote = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-      person = 'Jean Doe <span class="subtext">Ministre</span>'
+      quote = """Just´M.A.G.I.C.A.L’ !!! Felix is giving a new and refreshing image to the world of
+magic. He entertained, surprised, created smiles and unbelieve to our guests who
+were delighted with his tricks and way of life. Thanks for opening the doors of a new world !!! ✨✨✨
+"""
+      person = 'Georges Mangin <span class="subtext">CEO de l’évènementiel à la Deutsch Bank</span>'
       img = "person1.jpg"
       alt = "Person1"
 
     [[params.testimonials.item]]
-      quote = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-      person = 'John Doe <span class="subtext">Retraitée</span>'
+      quote = """J'ai commencé à travailler avec des magiciens au Gaïo Saint-Tropez. La magie a vraiment
+évolué positivement depuis quelques années loin de l'image Épinal d'un vieux jeu de cartes.
+Félix Incarne parfaitement cette mutation du métier. Un vrai régal pour nos clients.
+"""
+      person = 'Carl de Moncharline <span class="subtext">CEO de l’Impérial</span>'
       img = "person2.jpg"
       alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-      person = 'Chris Nash <span class="subtext">Chef des avions</span>'
+      quote = """Lors de la fête du personnel que FEDASIL a rganisé en 2019 pour le personnel du siège de
+l’Agence, soit 200 personnes réparties pour le repas en 20 tables de dix, Pierre Guilbert, ami
+et consultant de FEDASIL, m’a suggéré pour agrémenter le moment du repas, d’inviter Félix
+“tu verras m’a-t-il dit, il est génial”. Et dès que Félix a commencé ses tours de magie avec ces
+cartes, j’ai vite compris que Félix était génial, car dès la première table il avait conquis son
+public, et passant de table en table a poursuivi de faire monter une ambiance que je n’avais
+jamais pu voir lors des fêtes précédentes. 
+
+Il a poursuivi pour le club de mordus qu’il avait
+séduits durant une partie de l’après-midi. J’avais moi aussi été conquis, entrevoyant qu’il
+puisse aussi faire bénéficier de son talent et de sa magie, rien qu’avec son jeu de cartes, les
+enfants des centres d’accueil dont nous avons la charge afin, durant quelques instants leur
+faire passer un moment de féérie pour qu’ils puissent eux aussi être éblouis par Felix le magicien.
+
+Quand le virus nous permettra à nouveau de “faire la fête”, je compte bien l’inviter à
+nouveau pour qu’il nous éblouisse comme la première fois”
+"""
+      person = 'Jean-Pierre Luxen <span class="subtext">Directeur Général de FEDASIL</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+
+    [[params.testimonials.item]]
+      quote = """
+Très belle rencontre lors d’un cocktail événementiel au BMW Brandstore ... de
+l’entertainment de proximité... un savant mélange entre du mentalisme et de la magie 
+Une approche très chaleureuse auprès des convives et surtout des tours hors du commun et
+à couper le souffle.
+
+J’ai ensuite fait appel à Félix pour plusieurs événements chez Marie’s Corner .... Pour fêter
+nos 25 ans et également à l’occasion de nos dîners de fin d’année. J’adore son approche, ses
+tours basés sur le mentalisme même si je dois avouer qu’à fois cela m’énerve de ne pas
+comprendre ...
+
+A ne pas hésiter vous allez adorer
+"""
+      person = 'Serge Silbert <span class="subtext">CEO at Marie’s Corner</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+
+    [[params.testimonials.item]]
+      quote = """
+Ébahi par tant de talents. Les loges remplient d'éloges et au souffle coupé par l'inattendu,
+l'émotion et les rebondissements exercés par des tours de magies tous plus magiques les
+uns que les autres, l'expérience vécu avec et grâce à Félix est simplement incroyable. C’est la
+toute la délicatesse de ses tours, jouant de l'attention des uns et de l'inattentions des autres
+qu'il parvient à créer un état d'étonnements général ! 
+
+Nous avons pu constater de nos yeux (ébahi) a quel point il a su subjuguer le public et ce en un 
+seul tour de mains (comprenez la référence) bref, l’important c’est de ne pas passer à côté de cette magnifique expérience ☺️
+"""
+      person = 'Chuck Delly <span class="subtext">Directeur de PopUp Agency</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+
+    [[params.testimonials.item]]
+      quote = """
+Félix a une incroyable capacité à nous emporter dans un voyage surprenant par l’exercice de son talent. Quelle aventure !
+"""
+      person = 'Christophe Parot <span class="subtext">CEO du WOKR17</span>'
       img = "person3.jpg"
       alt = "Person3"
 
@@ -170,51 +259,52 @@ theme = "hugo-elate-theme"
   [[params.services.item]]
     img ="/img/IMG_5112.jpg"
     thumb ="/img/IMG_5112_thumb.png"
-  [[params.services.item]]
+
+  [[params.services.more.item]]
     img ="/img/IMG_4766.JPG"
     thumb ="/img/IMG_4766_thumb.png"
-  [[params.services.item]]
+  [[params.services.more.item]]
     img ="/img/IMG_4757.JPG"
     thumb ="/img/IMG_4757_thumb.png"
-  [[params.services.item]]
+  [[params.services.more.item]]
     img ="/img/IMG_4742.JPG"
     thumb ="/img/IMG_4742_thumb.png"
-  [[params.services.item]]
+  [[params.services.more.item]]
     img ="/img/IMG_4611.JPG"
-  [[params.services.item]]
+  [[params.services.more.item]]
     img ="/img/IMG_2627.JPG"
     thumb ="/img/IMG_2627_thumb.png"
-  [[params.services.item]]
+  [[params.services.more.item]]
     img ="/img/IMG_4485.JPG"
     thumb ="/img/IMG_4485_thumb.png"
-  [[params.services.item]]
+  [[params.services.more.item]]
     img ="/img/IMG_4483.JPG"
     thumb ="/img/IMG_4483_thumb.png"
-  [[params.services.item]]
+  [[params.services.more.item]]
     img ="/img/DSC00268.jpg"
     thumb ="/img/DSC00268_thumb.png"
-  [[params.services.item]]
+  [[params.services.more.item]]
     img ="/img/DSC00267.jpg"
     thumb ="/img/DSC00267_thumb.png"
-  [[params.services.item]]
+  [[params.services.more.item]]
     img ="/img/DSC00233-2.jpg"
     thumb ="/img/DSC00233-2_thumb.png"
-  [[params.services.item]]
+  [[params.services.more.item]]
     img ="/img/DSC00219.jpg"
     thumb ="/img/DSC00219_thumb.png"
-  [[params.services.item]]
+  [[params.services.more.item]]
     img ="/img/DSC00111.jpg"
     thumb ="/img/DSC00111_thumb.png"
-  [[params.services.item]]
+  [[params.services.more.item]]
     img ="/img/DSC00105.jpg"
     thumb ="/img/DSC00105_thumb.png"
-  [[params.services.item]]
+  [[params.services.more.item]]
     img ="/img/DSC00045.jpg"
     thumb ="/img/DSC00045_thumb.png"
-  [[params.services.item]]
+  [[params.services.more.item]]
     img ="/img/DSC00053.jpg"
     thumb ="/img/DSC00053_thumb.png"
-  # [[params.services.item]]
+  # [[params.services.more.item]]
   #   img ="/img/DSC00040.jpg"
   #   thumb ="/img/DSC00040_thumb.png"
 
@@ -253,6 +343,9 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       img = "/img/belfius.png"
+
+    [[params.about.item]]
+      img = "/img/wokr17.png"
 
 
   # Counters section
@@ -321,4 +414,4 @@ theme = "hugo-elate-theme"
     links = [
         ["/social/facebook.png", "//www.facebook.com/felix.le.magicien/"],
         ["/social/instagram.png", "//www.instagram.com/felix_magie/"],
-      ]
+    ]
