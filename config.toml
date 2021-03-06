@@ -138,7 +138,7 @@ la surface. Avec Félix, ça a marché du tonnerre. Il est passé de table en ta
 table en table se sont répandus des sourires, des ébahissements, des exclamations,
 des applaudissements, des remerciements. Chapeau, l’artiste !
 """
-      person = 'Pierre Guilbert <span class="subtext">Toubib d’Entreprise</span>'
+      person = 'Pierre Guilbert, <span class="subtext">Toubib d’Entreprise</span>'
       img = "person1.jpg"
       alt = "Person1"
 
@@ -147,7 +147,7 @@ des applaudissements, des remerciements. Chapeau, l’artiste !
 soit émerveillé. Des plus jeunes ou des plus âges personne n’est mis de côté et tout le
 monde est impressionné .... voire même énervé mais c’est cela qu’on aime.
 """
-      person = 'Raphaël SZ <span class="subtext">CoDirecteur de Room 260</span>'
+      person = 'Raphaël SZ, <span class="subtext">CoDirecteur de Room 260</span>'
       img = "person2.jpg"
       alt = "Person2"
 
@@ -158,7 +158,7 @@ magicien tout d’abord, fascinant le public de la maison de repos schaerbeekois
 enregistrions l’émission, mais aussi pour sa bienveillance vis à vis de ce 4 ème âge souvent
 désespéré, leur apportant un peu de joie en un moment aussi sombre.
 """
-      person = 'Jean-Jacques Deleeuw <span class="subtext">Directeur de l’information &amp; Rédacteur en chef BX1</span>'
+      person = 'Jean-Jacques Deleeuw, <span class="subtext">Directeur de l’information &amp; Rédacteur en chef BX1</span>'
       img = "person3.jpg"
       alt = "Person3"
 
@@ -167,7 +167,7 @@ désespéré, leur apportant un peu de joie en un moment aussi sombre.
 magic. He entertained, surprised, created smiles and unbelieve to our guests who
 were delighted with his tricks and way of life. Thanks for opening the doors of a new world !!! ✨✨✨
 """
-      person = 'Georges Mangin <span class="subtext">CEO de l’évènementiel à la Deutsch Bank</span>'
+      person = 'Georges Mangin, <span class="subtext">CEO de l’évènementiel à la Deutsch Bank</span>'
       img = "person1.jpg"
       alt = "Person1"
 
@@ -176,7 +176,7 @@ were delighted with his tricks and way of life. Thanks for opening the doors of 
 évolué positivement depuis quelques années loin de l'image Épinal d'un vieux jeu de cartes.
 Félix Incarne parfaitement cette mutation du métier. Un vrai régal pour nos clients.
 """
-      person = 'Carl de Moncharline <span class="subtext">CEO de l’Impérial</span>'
+      person = 'Carl de Moncharline, <span class="subtext">CEO de l’Impérial</span>'
       img = "person2.jpg"
       alt = "Person2"
 
@@ -198,7 +198,7 @@ faire passer un moment de féérie pour qu’ils puissent eux aussi être éblou
 Quand le virus nous permettra à nouveau de “faire la fête”, je compte bien l’inviter à
 nouveau pour qu’il nous éblouisse comme la première fois”
 """
-      person = 'Jean-Pierre Luxen <span class="subtext">Directeur Général de FEDASIL</span>'
+      person = 'Jean-Pierre Luxen, <span class="subtext">Directeur Général de FEDASIL</span>'
       img = "person3.jpg"
       alt = "Person3"
 
@@ -216,7 +216,7 @@ comprendre ...
 
 A ne pas hésiter vous allez adorer
 """
-      person = 'Serge Silbert <span class="subtext">CEO at Marie’s Corner</span>'
+      person = 'Serge Silbert, <span class="subtext">CEO at Marie’s Corner</span>'
       img = "person3.jpg"
       alt = "Person3"
 
@@ -231,7 +231,7 @@ qu'il parvient à créer un état d'étonnements général !
 Nous avons pu constater de nos yeux (ébahi) a quel point il a su subjuguer le public et ce en un 
 seul tour de mains (comprenez la référence) bref, l’important c’est de ne pas passer à côté de cette magnifique expérience ☺️
 """
-      person = 'Chuck Delly <span class="subtext">Directeur de PopUp Agency</span>'
+      person = 'Chuck Delly, <span class="subtext">Directeur de PopUp Agency</span>'
       img = "person3.jpg"
       alt = "Person3"
 
@@ -239,7 +239,7 @@ seul tour de mains (comprenez la référence) bref, l’important c’est de ne 
       quote = """
 Félix a une incroyable capacité à nous emporter dans un voyage surprenant par l’exercice de son talent. Quelle aventure !
 """
-      person = 'Christophe Parot <span class="subtext">CEO du WOKR17</span>'
+      person = 'Christophe Parot, <span class="subtext">CEO du WOKR17</span>'
       img = "person3.jpg"
       alt = "Person3"
 
