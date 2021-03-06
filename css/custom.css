@@ -5,8 +5,13 @@
 #fh5co-intro .fh5co-block.intro-text {
     border-top-right-radius: 2%;
     border-bottom-right-radius: 2%;
+    text-align: justify;
 }
 
+#fh5co-services .image-grid {
+    padding-left: 10px;
+    padding-right: 0;
+}
 
 #fh5co-services .image-grid a {
     display: block;
@@ -16,4 +21,31 @@
 
 .testimonials2 {
     display: none;
+}
+
+.section-heading {
+    margin-bottom: 0;
+}
+
+.animated-slow {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
+#services-more-items-toggle {
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    #fh5co-services .image-grid {
+        padding-right: 10px;;
+    }
+
+    .fh5co-person {
+        margin-bottom: 1em;
+    }
+    .fh5co-person figure img {
+        width: 80px;
+        margin-left: 20px;
+    }
 }
