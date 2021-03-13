@@ -36,6 +36,18 @@
     color: #fff;
 }
 
+#fh5co-testimonials {
+    margin-bottom: 2em;
+}
+#fh5co-testimonials .box-testimony {
+    margin-bottom: 0em;
+    float: left;
+}
+
+label.required-fields {
+    font-weight: normal;
+}
+
 @media screen and (max-width: 480px) {
     #fh5co-services .image-grid {
         padding-right: 10px;;

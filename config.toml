@@ -19,7 +19,7 @@ theme = "hugo-elate-theme"
   # Navigation
   [params.navigation]
     brand = ""
-    home = ""
+    home = "Accueil"
     video = "Vidéo"
     work = "Prestations"
     testimonials = "Témoignages"
@@ -89,24 +89,24 @@ theme = "hugo-elate-theme"
       subtitle = ""
 
     [[params.work.row]]
-      img = "/img/recept.png"
+      img = "/img/recept_thumb.png"
       alt = "Réceptions / Soirées privées"
-      title = "Soirée privée: Mariage, Anniversaire"
+      title = "Mariage, Anniversaire"
       subtitle = ""
 
     [[params.work.row]]
-      img = "/img/spec.jpg"
+      img = "/img/spec_thumb.jpg"
       alt = "Spectacle sur scène"
       title = "Spectacle sur scène"
       subtitle = ""
 
     [[params.work.row]]
-      img = "/img/gala.jpg"
+      img = "/img/gala_thumb.jpg"
       title = "Repas d’entreprises"
       subtitle = ""
 
     [[params.work.row]]
-      img = "/img/corpo.png"
+      img = "/img/corpo_thumb.png"
       alt = "Corporate"
       title = "Corporate"
       subtitle = ""
@@ -392,6 +392,7 @@ Félix a une incroyable capacité à nous emporter dans un voyage surprenant 
     map = false
     form = true
     title = "Une question ? Écrivez-moi"
+    required = "* mention obligatoire"
     description = ""
     
     # Available icons: http://simplelineicons.com/
@@ -401,10 +402,10 @@ Félix a une incroyable capacité à nous emporter dans un voyage surprenant 
         ["icon-envelope", "fsimon.magie@gmail.com"],
       ]
     
-    name = "Votre nom"
-    email = "Email"
+    name = "Votre nom *"
+    email = "Email *"
     phone = "Téléphone"
-    message = "Message"
+    message = "Descriptif de votre événement"
     button = "Envoyer"
 
   # Footer section
