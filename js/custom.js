@@ -21,12 +21,17 @@
         testimonials.forEach(el => el.style.display = 'none')
         testimonials[t].style.display = 'block'
     }
-    let t=0; setInterval(_ => rotateTestimonials(t = (t+1) % testimonials.length), 20*1000);rotateTestimonials(t)
+    let t=0; rotateTestimonials(t)
 
     /**********************/
 
     $('#services-more-items-toggle').click(_ => {
         $('#services-more-items, #services-more-items-toggle').toggle()
+        return false
+    })
+
+    $('#testimonials-more-items').click(_ => {
+        rotateTestimonials(t = (t+1) % testimonials.length)
         return false
     })
 })()
