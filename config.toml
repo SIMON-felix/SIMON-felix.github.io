@@ -11,7 +11,7 @@ theme = "hugo-elate-theme"
   # Meta
   author = "Félix SIMON"
   description = "Magicien & Mentaliste"
-  email = "fsimon.magie@gmail.com"
+  email = "contact@fsimonmagie.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = ""
@@ -399,7 +399,7 @@ Félix a une incroyable capacité à nous emporter dans un voyage surprenant 
     details = [
         ["icon-home", "Félix Simon"],
         ["icon-phone", "0033/6 82 87 11 45"],
-        ["icon-envelope", "fsimon.magie@gmail.com"],
+        ["icon-envelope", "contact@fsimonmagie.com"],
       ]
     
     name = "Votre nom *"
